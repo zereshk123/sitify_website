@@ -1,0 +1,12 @@
+
+// theme colors
+$theme-colors: (
+    "white": #fff,
+    "dark": #000,
+    "bg_color":    #f7f7ef,
+    "base_orange": #b69165,
+    "base_red": #430907
+);
+
+// import  bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
