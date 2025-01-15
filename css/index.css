@@ -81,6 +81,51 @@ body{
     border: none;
 }
 
+.features-sec{
+    position: relative;
+    padding: 20px 35px;
+    margin-top: 60px;
+}
+
+.feature-item{
+    position: relative;
+    z-index: 2;
+}
+
+.feature-content{
+    position: relative;
+    z-index: 2;
+    transition: 0.3s;
+}
+
+.feature-icon{
+    height: 70px;
+}
+
+.feature-text{
+    margin: 0;
+    font-family: g-b, 'Courier New', Courier, monospace;
+    font-size: 17px;
+    text-align: center;
+}
+
+.bar{
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 15px;
+    width: 40%;
+    border-radius: 7px;
+    height: 30px; 
+    background-color: #a1c188;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.feature-item:hover .bar{
+    width: 90%;
+}
+
 
 /* responsive */
 @media (max-width: 1025px){
@@ -112,6 +157,21 @@ body{
         width: 40%;
         font-size: 15px;
     }
+
+    .features-sec{
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+    }
+
+    .features-sec::-webkit-scrollbar {
+        display: none;
+    }
+
+    .feature-item{
+        flex: 0 0 auto !important;
+        width: 40%;
+    }
 }
 
 @media (max-width: 769px){
@@ -139,6 +199,11 @@ body{
         width: 50%;
         font-size: 13px;
     }
+
+    .feature-item{
+        flex: 0 0 auto !important;
+        width: 40%;
+    }
 }
 
 @media (max-width: 426px){
@@ -163,8 +228,17 @@ body{
     }
     
     .header--hero-sec__txt a{
-        width: 50%;
+        width: 45%;
         font-size: 15px;
+    }
+
+    .features-sec{
+        margin-top: 30px;
+    }
+
+    .feature-item{
+        flex: 0 0 auto !important;
+        width: 70%;
     }
 }
 
@@ -190,8 +264,12 @@ body{
     }
     
     .header--hero-sec__txt a{
-        width: 50%;
         font-size: 13px;
+    }
+
+    .feature-item{
+        flex: 0 0 auto !important;
+        width: 85%;
     }
 }
 
@@ -213,7 +291,11 @@ body{
     }
     
     .header--hero-sec__txt a{
-        width: 50%;
         font-size: 11px;
+    }
+
+    .feature-item{
+        flex: 0 0 auto !important;
+        width: 100%;
     }
 }
