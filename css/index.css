@@ -1,0 +1,81 @@
+
+body{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.header{
+    width: 100%;
+    border-radius: 0 0 30px 30px;
+}
+
+.heaeder--menu{
+    margin: 0 auto;
+    width: 95%;
+}
+
+.header--menu__logo img{
+    width: 80%;
+}
+
+.header--menu__navbar a{
+    color: #403d39;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header--menu__navbar a:hover:not(#active){
+    color: #ecb704;
+}
+
+.header--menu__navbar #active{
+    color: #ecb704;
+}
+
+.header--hero-sec__txt a{
+    font-family: g-n,'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: #403d39;
+    border-radius: 20px 0 20px 20px;
+    transition: 0.3s;
+}
+
+.header--hero-sec__txt a:hover{
+    background-color: #ecb704 !important;
+    color: #403d39;
+}
+
+.header--hero-sec__txt a:focus{
+    border: none;
+}
+
+.header--hero-sec__img img{
+    width: 90%;
+}
+
+.header--hero-sec__txt div{
+    width: 100%;
+    justify-content: start;
+}
+
+.header--hero-sec__txt p, h1{
+    padding: 0;
+    margin: 0;
+}
+
+.header--hero-sec__txt h1{
+    margin: -10px 0;
+    font-family: g-b,'Courier New', Courier, monospace;
+    font-size: 55px;
+    color: #403d39;
+}
+
+.header--hero-sec__txt p{
+    font-family: g-l,'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: #9d9e9b;
+}
+
+.header--hero-sec__txt a{
+    width: 30%;
+}

@@ -1,25 +1,20 @@
 
 @font-face {
-    font-family: vazir-t;
-    src: url("../fonts/Vazir-Thin.ttf");
+    font-family: g-t;
+    src: url("../assets/fonts/graphik-arabic-thin.OTF");
 }
 
 @font-face {
-    font-family: vazir-l;
-    src: url("../fonts/Vazir-Light.ttf");
+    font-family: g-l;
+    src: url("../assets/fonts/graphik-arabic-light.OTF");
 }
 
 @font-face {
-    font-family: vazir-n;
-    src: url("../fonts/Vazir.ttf");
+    font-family: g-n;
+    src: url("../assets/fonts/graphik-arabic.OTF");
 }
 
 @font-face {
-    font-family: vazir-m;
-    src: url("../fonts/Vazir-Medium.ttf");
-}
-
-@font-face {
-    font-family: vazir-b;
-    src: url("../fonts/Vazir-Bold.ttf");
+    font-family: g-b;
+    src: url("../assets/fonts/graphik-arabic-bold.OTF");
 }
