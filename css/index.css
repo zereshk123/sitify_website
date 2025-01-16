@@ -81,7 +81,7 @@ body{
     border: none;
 }
 
-.features-sec{
+.feature-sec{
     position: relative;
     padding: 20px 35px;
     margin-top: 60px;
@@ -126,6 +126,93 @@ body{
     width: 90%;
 }
 
+#rectangle-puplare{
+    width: 35px;
+    margin-right: 20%;
+    margin-top: 60px;
+}
+
+.portfolio-title p{
+    font-family: g-l,'Courier New', Courier, monospace;
+    color: #403d39;
+    font-size: 18px;
+}
+
+.portfolio-title .h2{
+    position: relative;
+}
+
+.portfolio-title span{
+    width: 100%;
+    position: absolute;
+    border: 1px solid #c6c6c6;
+    border-style: dashed;
+    z-index: 1;
+}
+
+.portfolio-title h2{
+    position: relative;
+    background-color: #fff;
+    padding: 0 20px;
+    font-family: g-b,'Courier New', Courier, monospace;
+    font-size: 30px;
+    z-index: 2;
+}
+
+.portfolio-content{
+    scroll-behavior: smooth;
+    user-select: none;
+    cursor: pointer;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
+.portfolio-content::-webkit-scrollbar{
+    display: none;
+}
+
+.portfolio-item{
+    width: 25%;
+    flex: 0 0 auto;
+    overflow: hidden;
+}
+
+.portfolio-img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.portfolio-img img{
+    pointer-events: none;   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.portfolio-des{
+    border-top: 1px solid #c6c6c6;
+}
+
+.portfolio-txt p{
+    font-size: 16px;
+    color: #403d39;
+}
+
+.portfolio-btn a{
+    font-size: 15px;
+    padding: 8px 20px;
+    background-color: #403d39;
+    color: #f7f7ef;
+}
+
+.portfolio-btn a:hover{
+    background-color: #ecb704;
+}
+
+.portfolio-btn a:focus{
+    border: none;
+}
 
 /* responsive */
 @media (max-width: 1025px){
@@ -158,13 +245,13 @@ body{
         font-size: 15px;
     }
 
-    .features-sec{
+    .feature-sec{
         display: flex !important;
         flex-wrap: nowrap !important;
         overflow-x: auto !important;
     }
 
-    .features-sec::-webkit-scrollbar {
+    .feature-sec::-webkit-scrollbar {
         display: none;
     }
 
@@ -232,13 +319,13 @@ body{
         font-size: 15px;
     }
 
-    .features-sec{
+    .feature-sec{
         margin-top: 30px;
     }
 
     .feature-item{
         flex: 0 0 auto !important;
-        width: 70%;
+        width: 75%;
     }
 }
 
@@ -297,5 +384,9 @@ body{
     .feature-item{
         flex: 0 0 auto !important;
         width: 100%;
+    }
+
+    .feature-text{
+        font-size: 16px;
     }
 }
