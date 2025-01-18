@@ -334,6 +334,25 @@ body{
     background-color: #fdd655;
 }
 
+.offer-banner{
+    padding: 40px 0;
+    background-image: url("../assets/images/banner-bg.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.offer-banner h3{
+    color: #403d39;
+    font-family: g-b;
+    font-size: 40px;
+}
+
+.offer-banner p{
+    color: #7b7875;
+    font-family: g-l;
+    font-size: 25px;
+}
+
 
 /* responsive */
 @media (max-width: 1025px){
@@ -399,6 +418,14 @@ body{
     .plans-des--btn a{
         font-size: 16px;
     }
+
+    .offer-banner h3{
+        font-size: 35px;
+    }
+    
+    .offer-banner p{
+        font-size: 20px;
+    }
 }
 
 @media (max-width: 769px){
@@ -437,7 +464,7 @@ body{
     }
 
     .plans-item{
-        width: 60%;
+        width: 55%;
     }
 
     .plans-img img{
@@ -446,6 +473,14 @@ body{
 
     .plans-des--list li{
         text-align: center;
+    }
+
+    .offer-banner h3{
+        font-size: 30px;
+    }
+    
+    .offer-banner p{
+        font-size: 18px;
     }
 }
 
@@ -529,6 +564,18 @@ body{
     .plans-bar{
         left: 5px;
     }
+
+    .offer-banner{
+        padding: 75px 0;
+    }
+
+    .offer-banner h3{
+        font-size: 25px;
+    }
+    
+    .offer-banner p{
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 376px){
@@ -598,6 +645,14 @@ body{
         padding: 5px 15px;
         font-size: 13px;
     }
+
+    .offer-banner h3{
+        font-size: 22px;
+    }
+    
+    .offer-banner p{
+        font-size: 14px;
+    }
 }
 
 @media (max-width: 321px){
@@ -658,5 +713,17 @@ body{
 
     .plans-item{
         width: 85%;
+    }
+
+    .offer-banner{
+        padding: 60px 0;
+    }
+
+    .offer-banner h3{
+        font-size: 20px;
+    }
+    
+    .offer-banner p{
+        font-size: 15px;
     }
 }
