@@ -391,6 +391,14 @@ body{
     .portfolio-item{
         width: 35%;
     }
+
+    .plans-item{
+        width: 90%;
+    }
+
+    .plans-des--btn a{
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 769px){
@@ -427,6 +435,18 @@ body{
     .portfolio-item{
         width: 45%;
     }
+
+    .plans-item{
+        width: 60%;
+    }
+
+    .plans-img img{
+        width: 30%;
+    }
+
+    .plans-des--list li{
+        text-align: center;
+    }
 }
 
 @media (max-width: 426px){
@@ -441,7 +461,7 @@ body{
     .header--menu__bar{
         font-size: 25px;
     }
-    
+
     .header--hero-sec__txt h1{
         font-size: 35px;
     }
@@ -453,6 +473,10 @@ body{
     .header--hero-sec__txt a{
         width: 45%;
         font-size: 15px;
+    }
+
+    .header--hero-sec__img img{
+        width: 75%;
     }
 
     .feature-sec{
@@ -480,9 +504,30 @@ body{
         width: 80%;
     }
 
+    .plans-title h2{
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .plans-title p{
+        font-size: 15px;
+    }
+
+    .plans-content{
+        margin-top: 30px;
+    }
+
     .portfolio-btn a{
         font-size: 13px;
         padding: 5px 10px;
+    }
+    
+    .plans-item{
+        width: 75%;
+    }
+
+    .plans-bar{
+        left: 5px;
     }
 }
 
@@ -523,6 +568,35 @@ body{
 
     .portfolio-item{
         width: 95%;
+    }
+
+    .plans-title h2{
+        font-size: 17px;
+    }
+
+    .plans-title p{
+        font-size: 13px;
+    }
+    
+    .plans-des--title h4{
+        font-size: 15px;
+    }
+    
+    .plans-des--title h5{
+        font-size: 14px;
+    }
+
+    .plans-item{
+        width: 80%;
+    }
+
+    .plans-des--list li{
+        font-size: 15px;
+    }
+
+    .plans-des--btn a{
+        padding: 5px 15px;
+        font-size: 13px;
     }
 }
 
@@ -571,5 +645,18 @@ body{
     .portfolio-btn a{
         font-size: 12px;
         padding: 5px 10px;
+    }
+
+    .plans-title h2{
+        padding: 0 10px;
+        font-size: 15px;
+    }
+
+    .plans-title p{
+        font-size: 10px;
+    }
+
+    .plans-item{
+        width: 85%;
     }
 }
